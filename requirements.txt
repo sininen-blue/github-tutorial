@@ -1,0 +1,18 @@
+requirements.txt is a common file in Python projects that lists the dependencies used
+
+It's not required, since you can just install the packages manually, but it is a best practice to include one for easier setup and deployment.
+
+Especially for larger projects or when sharing your code with others, having a requirements.txt file helps ensure that everyone is using the same versions of the libraries, which can prevent compatibility issues.
+
+# Example content of requirements.txt
+flask==2.0.1
+requests==2.25.1
+numpy==1.21.0
+
+# To create a requirements.txt file, you can use the following command in your terminal:
+pip freeze > requirements.txt
+
+# and to run the installation of the packages listed in the requirements.txt file, you can use:
+pip install -r requirements.txt
+
+note the -r
