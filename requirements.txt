@@ -1,8 +1,8 @@
-requirements.txt is a common file in Python projects that lists the dependencies used
-
-It's not required, since you can just install the packages manually, but it is a best practice to include one for easier setup and deployment.
-
-Especially for larger projects or when sharing your code with others, having a requirements.txt file helps ensure that everyone is using the same versions of the libraries, which can prevent compatibility issues.
+# requirements.txt is a common file in Python projects that lists the dependencies used
+#
+# It's not required, since you can just install the packages manually, but it is a best practice to include one for easier setup and deployment.
+#
+# Especially for larger projects or when sharing your code with others, having a requirements.txt file helps ensure that everyone is using the same versions of the libraries, which can prevent compatibility issues.
 
 # Example content of requirements.txt
 flask==2.0.1
